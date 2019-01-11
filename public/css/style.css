@@ -417,7 +417,12 @@ color: #000;
 .mid-mid {
 background-color: #000000;
 border-color:#000000;
-color:#fff;
+color: #ddd;
+}
+.mid-input {
+background-color: #dddddd1c;
+	border: 1px solid #ced4da1f;
+	color: #ddd;
 }
 .agileinfo-logo h2 {
     color: #fff;
