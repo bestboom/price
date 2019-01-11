@@ -396,7 +396,11 @@ li > a:only-child:after { content: ''; }
 }
 .slider-info {
     position: relative;
-    width: 48%;
+    width: 99%;
+}
+.uper {
+ border-radius: 7px;
+ background: #312f2f;
 }
 .agileinfo-logo h2 {
     color: #fff;
