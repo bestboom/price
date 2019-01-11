@@ -3,6 +3,7 @@ $(document).ready(function(){
     $.getJSON("https://api.coincap.io/v2/assets/tron", function(result){
         var price = result.data['priceUsd'];
         var inputvalue = $('#trx_input').val();
+      console.log(inputvalue);
         $('#name').html(result.data['id']);
         $('#price').html('$' + parseFloat(price).toFixed(6));
         $('#change').html('(' + (parseFloat(result.data['changePercent24Hr']).toFixed(2)) + '%)');
