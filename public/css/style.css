@@ -393,8 +393,8 @@ li > a:only-child:after { content: ''; }
     width: 99%;
 }
 .uper {
- border-radius: 7px;
- background: #312f2f;
+ 
+ background: #000000;
 }
 .mid-top {
  color: #fff;	
@@ -408,9 +408,7 @@ li > a:only-child:after { content: ''; }
 font-size: 60px;
 color: #ffc168;
     margin-top: 6px;
-    font-weight: 700;
     padding-top: 0px;
-    font-family: Roboto,sans-serif;
     border-left: 1px solid #fff;
     border-right: 1px solid #fff;	
 }
