@@ -374,7 +374,6 @@ li > a:only-child:after { content: ''; }
 .banner {
     /*background: url(../images/bg.jpg) no-repeat center;*/
 	background: #141823;	
-    background-size: cover;
 	position: relative;
 }
 .banner:before{
@@ -451,6 +450,12 @@ border-bottom-right-radius: 1rem;
     border-top-right-radius: 8px;
     background: inherit;
 }	
+.left-info {
+   font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #000;
+}
 .agileinfo-logo h2 {
     color: #fff;
     display: inline-block;
