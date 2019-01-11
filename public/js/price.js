@@ -10,8 +10,7 @@ $(document).ready(function(){
         $('#rank').html(result.data['rank']);
       $('#cap').html(result.data['marketCapUsd']);
       $('#volumetoday').html(result.data['volumeUsd24Hr']);
-      $('#supply').html(result.data['supply']);
-      $('#maxsupply').html(result.data['maxSupply']);
+      $('#supply').html(((result.data['supply'])/1000000000).toFixed(2) + 'B TRX' );
     });
   }, 1000);
 });
