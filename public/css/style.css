@@ -409,6 +409,7 @@ li > a:only-child:after { content: ''; }
 .mid-price {
 font-size: 60px;
 color: #000;
+text-align:center;	
     margin-top: 6px;
     padding-top: 0px;
     border-left: 1px solid #2f324133;
@@ -425,6 +426,7 @@ border: 1px solid #ced4da1f;
 color: #ddd;
 }
 .flag {
+margin-top:-12px;	
 border-bottom-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
     position: relative;
