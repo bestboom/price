@@ -10,7 +10,7 @@ $(document).ready(function(){
         $('#rank').html(result.data['rank']);
       $('#cap').html(result.data['marketCapUsd']);
       $('#volumetoday').html(result.data['volumeUsd24Hr']);
-      $('#supply).html(result.data['supply']);
+      $('#supply').html(result.data['supply']);
       $('#maxsupply').html(result.data['maxSupply']);
     });
   }, 1000);
