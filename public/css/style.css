@@ -398,20 +398,21 @@ li > a:only-child:after { content: ''; }
  background: #ffc168;
 }
 .mid-top {
- color: #fff;	
+ color: #000;	
  height: 80px;
  text-align: center;
- padding-top: 15px;
+ margin-top: 6px;
+ padding-top: 9px;
  font-size: 45px;
  text-transform: uppercase;	
 }
 .mid-price {
 font-size: 60px;
-color: #ffc168;
+color: #000;
     margin-top: 6px;
     padding-top: 0px;
-    border-left: 1px solid #fff;
-    border-right: 1px solid #fff;	
+    border-left: 1px solid #2f324133;
+    border-right: 1px solid #2f324133;	
 }
 .mid-mid {
 background-color: #000000;
