@@ -453,8 +453,6 @@ border-bottom-right-radius: 1rem;
 .left-info {
    font-size: 18px;
     font-weight: 600;
-    padding-bottom: 12px;
-    border-bottom: 1px solid #000;
 }
 .left-bar {
 background: #ffc168;
@@ -463,6 +461,11 @@ background: #ffc168;
 }
 .bar-para {
 border-bottom: 1px solid #000;	
+	padding-bottom: 10px;
+}
+.para-name {
+	font-size: 18px;
+	padding-right:8px;
 }
 .bar-top {
 padding-bottom: 40px;	
