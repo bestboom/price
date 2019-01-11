@@ -9,7 +9,7 @@ $(document).ready(function(){
         $('#change').html('(' + (parseFloat(result.data['changePercent24Hr']).toFixed(2)) + '%)');
         $('#rank').html(result.data['rank']);
       $('#cap').html('$' + ((result.data['marketCapUsd'])/1000000000).toFixed(2) + 'B');
-      $('#volumetoday').html(result.data['volumeUsd24Hr']);
+      $('#volumetoday').html('$' + ((result.data['volumeUsd24Hr'])/1000000).toFixed(2) + 'M');
       $('#supply').html(((result.data['supply'])/1000000000).toFixed(2) + 'B TRX' );
     });
   }, 1000);
