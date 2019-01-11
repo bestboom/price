@@ -402,6 +402,14 @@ li > a:only-child:after { content: ''; }
  border-radius: 7px;
  background: #312f2f;
 }
+.mid-top {
+ color: #fff;	
+ height: 80px;
+ text-align: center;
+ padding-top: 15px;
+ font-size: 45px;
+ text-transform: uppercase;	
+}
 .agileinfo-logo h2 {
     color: #fff;
     display: inline-block;
