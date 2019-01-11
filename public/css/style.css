@@ -373,7 +373,7 @@ li > a:only-child:after { content: ''; }
 /*-- banner --*/
 .banner {
     /*background: url(../images/bg.jpg) no-repeat center;*/
-	background: #676b6b;	
+	background: #141823;	
     background-size: cover;
 	position: relative;
 }
@@ -394,8 +394,8 @@ li > a:only-child:after { content: ''; }
     width: 99%;
 }
 .uper {
- 
- background: #000000;
+ border-radius: 7px;
+ background: #ffc168;
 }
 .mid-top {
  color: #fff;	
