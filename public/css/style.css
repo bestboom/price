@@ -464,6 +464,13 @@ background: #ffc168;
 .bar-para {
 border-bottom: 1px solid #000;	
 }
+.bar-top {
+padding-bottom: 40px;	
+}
+.bar-name {
+	font-size: 24px;
+	font-weight: 600;
+}
 .agileinfo-logo h2 {
     color: #fff;
     display: inline-block;
