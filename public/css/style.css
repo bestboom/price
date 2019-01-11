@@ -456,6 +456,14 @@ border-bottom-right-radius: 1rem;
     padding-bottom: 12px;
     border-bottom: 1px solid #000;
 }
+.left-bar {
+background: #ffc168;
+   height: 470px;
+    border-radius: 7px;
+}
+.bar-para {
+border-bottom: 1px solid #000;	
+}
 .agileinfo-logo h2 {
     color: #fff;
     display: inline-block;
