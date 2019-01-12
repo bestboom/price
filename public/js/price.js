@@ -27,10 +27,4 @@ $(document).ready(function(){
 
   }, 1000);
 });
-        $('#change').each(function() {
-          if ("#change:contains('-')") {
-            $(this).addClass('negative');
-             } else if ($(this).text() >= 0) {
-            $(this).addClass('positive');
-            }
-          });
+
