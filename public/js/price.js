@@ -10,7 +10,7 @@ $(document).ready(function(){
         $('#mdescription').attr('content', 'Tron price today is' +  mainprice + 'with chnage of ' + pricechange + ' in last 24 hours. See Tron (TRX) price chart for real time tron pric.' );
         $('#name').html(result.data['id']);
         $('#price').html('$' + parseFloat(price).toFixed(6));
-        $('#change').html('(' + (parseFloat(result.data['changePercent24Hr']).toFixed(2)) + '%)');
+        $('#change').html('(' + (parseFloat((result.data['changePercent24Hr'])*-2).toFixed(2)) + '%)');
         $('#rank').html(result.data['rank']);
         $('#cap').html('$' + ((result.data['marketCapUsd'])/1000000000).toFixed(2) + 'B');
         $('#volumetoday').html('$' + ((result.data['volumeUsd24Hr'])/1000000).toFixed(2) + 'M');
