@@ -23,12 +23,12 @@ $(document).ready(function(){
         $('#volumetoday2').html('$' + ((result.data['volumeUsd24Hr'])/1000000).toFixed(2) + 'M');
         $('#supply2').html(((result.data['supply'])/1000000000).toFixed(2) + 'B TRX' );
     });
-        $('#price').each(function() {
-            if ($(this).text() < 0) {
-                $(this).addClass('negative');
-                  } else if ($(this).text() >= 0) {
-                $(this).addClass('positive');
-                  }
+        $('#change').each(function() {
+          if ($(this).text() < 0) {
+            $(this).addClass('negative');
+             } else if ($(this).text() >= 0) {
+            $(this).addClass('positive');
+            }
           });
   }, 1000);
 });
