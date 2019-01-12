@@ -30,5 +30,7 @@ $(document).ready(function(){
         $('#change').each(function() {
           if ("#change:contains('-')") {
             $(this).addClass('negative');
-             }
+             } else if ("#change").text() >= 0) {
+            $(this).addClass('positive');
+            }
           });
