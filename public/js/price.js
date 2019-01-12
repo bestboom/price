@@ -22,8 +22,15 @@ $(document).ready(function(){
         $('#cap2').html('$' + ((result.data['marketCapUsd'])/1000000000).toFixed(2) + 'B');
         $('#volumetoday2').html('$' + ((result.data['volumeUsd24Hr'])/1000000).toFixed(2) + 'M');
         $('#supply2').html(((result.data['supply'])/1000000000).toFixed(2) + 'B TRX' );
-        $("#change:contains('-')").addClass('negative');
+        //$("#change:contains('-')").addClass('negative');
     });
 
   }, 1000);
 });
+        $('#change').each(function() {
+          if ($(this:contains('-')) {
+            $(this).addClass('negative');
+             } else {
+            $(this).addClass('positive');
+            }
+          });
