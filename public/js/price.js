@@ -4,7 +4,7 @@ $(document).ready(function(){
         var price = result.data['priceUsd'];
         var inputvalue = $('#trx_input').val();
 
-        $(title).html(price);
+        $('title').html(price);
         $('#name').html(result.data['id']);
         $('#price').html('$' + parseFloat(price).toFixed(6));
         $('#change').html('(' + (parseFloat(result.data['changePercent24Hr']).toFixed(2)) + '%)');
