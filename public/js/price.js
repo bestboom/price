@@ -3,9 +3,11 @@ $(document).ready(function(){
     $.getJSON("https://api.coincap.io/v2/assets/tron", function(result){
         var price = result.data['priceUsd'];
         var inputvalue = $('#trx_input').val();
-        var mainprice = '$' + parseFloat(price).toFixed(6);
+        var mainprice = '$' + parseFloat(price).toFixed(4);
+        var pricechange = '(' + (parseFloat(result.data['changePercent24Hr']).toFixed(2)) + '%)';
 
         $('title').html('Tron Price ' + mainprice + ' Live Tron Chart TRX Price');
+        $('#mdescription').attr('content', 'Tron price today is' +  mainprice + 'with chnage of ' + pricechange + ' in last 24 hours. See Tron (TRX) price chart for real time tron pric.' );
         $('#name').html(result.data['id']);
         $('#price').html('$' + parseFloat(price).toFixed(6));
         $('#change').html('(' + (parseFloat(result.data['changePercent24Hr']).toFixed(2)) + '%)');
