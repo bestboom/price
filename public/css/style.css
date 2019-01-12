@@ -393,6 +393,12 @@ li > a:only-child:after { content: ''; }
     position: relative;
     width: 99%;
 }
+.negative {
+color: red;	
+}
+.positive {
+color: green;	
+}
 .uper {
  border-radius: 7px;
  background: #ffc168;
