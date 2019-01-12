@@ -25,7 +25,7 @@ $(document).ready(function(){
         //$("#changes:contains('-')").addClass('negative');
     });
             $('#changes').each(function() {
-          if (parseFloat("#changes"):contains('-'))) {
+          if ("#changes:contains('-')") {
             $(this).addClass('negative');
              } else {
             $(this).addClass('positive');
