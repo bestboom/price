@@ -24,9 +24,9 @@ $(document).ready(function(){
         $('#supply2').html(((result.data['supply'])/1000000000).toFixed(2) + 'B TRX' );
     });
         $('#price').each(function() {
-            if (parseFloat($(this).text()) < 0) {
+            if ($(this).text() < 0) {
                 $(this).addClass('negative');
-                  } else if (parseFloat($(this).text()) >= 0) {
+                  } else if ($(this).text() >= 0) {
                 $(this).addClass('positive');
                   }
           });
