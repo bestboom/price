@@ -5,7 +5,7 @@ $(document).ready(function(){
         var inputvalue = $('#trx_input').val();
         var mainprice = '$' + parseFloat(price).toFixed(6);
 
-        $('title').html(mainprice);
+        $('title').html('Tron Price ' + mainprice + ' Live Tron Chart TRX Price');
         $('#name').html(result.data['id']);
         $('#price').html('$' + parseFloat(price).toFixed(6));
         $('#change').html('(' + (parseFloat(result.data['changePercent24Hr']).toFixed(2)) + '%)');
