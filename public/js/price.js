@@ -7,7 +7,7 @@ $(document).ready(function(){
         var pricechange = '(' + (parseFloat(result.data['changePercent24Hr']).toFixed(2)) + '%)';
 
         $('title').html('Tron Price ' + mainprice + ' Live Tron Chart TRX Price');
-        $('#mdescription').attr('content', 'Tron price today is' +  mainprice + 'with chnage of ' + pricechange + ' in last 24 hours. See Tron (TRX) price chart for real time tron pric.' );
+        $('#mdescription').attr('content', 'Tron price today is ' +  mainprice + ' with chnage of ' + pricechange + ' in last 24 hours. Tron (TRX) price chart for real time tron (TRX) price in USD with coin market cap and 24 hour volume.' );
         $('#name').html(result.data['id']);
         $('#price').html('$' + parseFloat(price).toFixed(6));
         $('#change').html('(' + (parseFloat(result.data['changePercent24Hr']).toFixed(2)) + '%)');
