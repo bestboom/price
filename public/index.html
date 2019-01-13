@@ -1,235 +1,197 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang=en>
 <head>
 <title>Tron Price - Live Tron Price Chart - TRX/USD Price</title>
-<!-- for-mobile-apps -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="tron price, tron chart, trx price, tron price chart, live tron price, tron real time price, tron market cap, tron chart price, tron coin, tron supply, tron tokens, tron trx" />
-<meta name="description" id="mdescription" content="Tron live price today with tron price chart. Get TRX/USD price with real time charts and market cap with tron supply and 24 hours tron trading volume." />	
-<meta name="twitter:title" content="Tron Price - Live Tron Price Chart - TRX/USD Price" />
-<meta name="twitter:description" content="Tron live price today with tron price chart. Get TRX/USD price with real time charts and market cap with tron supply and 24 hours tron trading volume.">
-<meta name="twitter:image" content="https://tronprice.org/images/trx-logo.png">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="google-site-verification" content="ZZzu1MBM5qmfH3ND1RttAXu-iEMq7EMgzZAi1j1QNhM" />	
-	<link rel='favicon icon' type='image/x-icon' href='/images/favicon.ico' />
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.css" rel='stylesheet' type='text/css' />
-	<!-- <link href="css/font-awesome.min.css" rel="stylesheet">-->
-	<link href="css/style.css" rel='stylesheet' type='text/css' />
-	<link rel="canonical" href="https://tronprice.org/" />
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
+<meta name=viewport content="width=device-width, initial-scale=1">
+<meta http-equiv=Content-Type content="text/html; charset=utf-8" />
+<meta name=keywords content="tron price, tron chart, trx price, tron price chart, live tron price, tron real time price, tron market cap, tron chart price, tron coin, tron supply, tron tokens, tron trx" />
+<meta name=description id=mdescription content="Tron live price today with tron price chart. Get TRX/USD price with real time charts and market cap with tron supply and 24 hours tron trading volume." />
+<meta name=twitter:title content="Tron Price - Live Tron Price Chart - TRX/USD Price" />
+<meta name=twitter:description content="Tron live price today with tron price chart. Get TRX/USD price with real time charts and market cap with tron supply and 24 hours tron trading volume.">
+<meta name=twitter:image content=https://tronprice.org/images/trx-logo.png>
+<meta name=twitter:card content=summary_large_image>
+<meta name=google-site-verification content=ZZzu1MBM5qmfH3ND1RttAXu-iEMq7EMgzZAi1j1QNhM />
+<link rel='favicon icon' type=image/x-icon href=/images/favicon.ico />
+<link href=https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.css rel=stylesheet type=text/css />
+<link href=css/style.css rel=stylesheet type=text/css />
+<link rel=canonical href=https://tronprice.org/ />
+<link href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css rel=stylesheet>
 </head>
 <body>
-<!-- //header -->
 <header>
-	<div class="container">
-		<!-- nav -->
-		<nav class="py-4 d-md-flex">
-			<div id="logo">
-				<h1> <a href="index.html"><span><img src="images/trx-logo.png" style="width: 32px; height:32px;" /></span> TRON PRICE</a></h1>
-			</div>
-			<label for="drop" class="toggle">Menu</label>
-			<input type="checkbox" id="drop" />
-			<ul class="menu mt-md-2 ml-auto">
-				<li class="mr-lg-4 mr-2 active"><a href="index.html">Home</a></li>
-				<li class="mr-lg-4 mr-2"><a href="#calculator">calculator</a></li>
-				<li class="mr-lg-4 mr-2"><a href="#how">What Is Tron</a></li>
-			</ul>
-			<div class="login-icon mt-2">
-				<a class="user" href="https://tronscan.org" target="_blank">Buy Tron</a>
-			</div>
-		</nav>
-		<!-- //nav -->
-	</div>
+<div class=container>
+<nav class="py-4 d-md-flex">
+<div id=logo>
+<h1> <a href=index.html><span><img src=images/trx-logo.png style=width:32px;height:32px /></span> TRON PRICE</a></h1>
+</div>
+<label for=drop class=toggle>Menu</label>
+<input type=checkbox id=drop />
+<ul class="menu mt-md-2 ml-auto">
+<li class="mr-lg-4 mr-2 active"><a href=index.html>Home</a></li>
+<li class="mr-lg-4 mr-2"><a href=#calculator>calculator</a></li>
+<li class="mr-lg-4 mr-2"><a href=#how>What Is Tron</a></li>
+</ul>
+<div class="login-icon mt-2">
+<a class=user href=https://tronscan.org target=_blank>Buy Tron</a>
+</div>
+</nav>
+</div>
 </header>
-<!-- //header -->
-		
-<!-- banner -->
-<section class="banner" id="home">
-	<div class="container">
-		<div class="banner-text">
-			<div class="slider-info">
-				<div class="row">
-					<div class="col-md-12">
-					<div class="row uper" style="padding-bottom:12px;">
-						<div class="col-md-3 mid-top">
-							<span class="flag">
-								<h2><span id="rank"></span></h2>
-								<p>Rank</p>
-							</span>
-							<span>TRON</span>
-						</div>
-						<div class="col-md-6 mid-price">
-							<span id="price"></span>
-						</div>
-						<div class="col-md-3 mid-top">
-							<span id="change" class="positive"></span>
-						</div>
-					</div>
-					<div class="row" style="padding:15px;">
-						<div class="col-md-4">
-							<div class="form-group">
-                              					<div class="input-group mb-3">
-									<div class="input-group-prepend">
-										<div class="input-group-text mid-mid" id="basic-addon"> 24 Hours High</div>	
-                                					</div>
-									<input type="text" class="form-control mid-input" name="" id="pool_value_dividend" aria-describedby="helpId" placeholder="">
-                             					</div>
-                           				 </div>
-						</div>
-						<div class="col-md-4">
-							<div class="form-group">
-                              					<div class="input-group mb-3">
-									<div class="input-group-prepend">
-										<div class="input-group-text mid-mid" id="basic-addon"> 24 Hours Low</div>	
-                                					</div>
-									<input type="text" class="form-control mid-input" name="" id="pool_value_dividend" aria-describedby="helpId" placeholder="">
-                             					</div>
-                           				 </div>
-						</div>
-						<div class="col-md-4">
-							<div class="form-group">
-                              					<div class="input-group mb-3">
-									<div class="input-group-prepend">
-										<div class="input-group-text mid-mid" id="basic-addon"> 24 Hours Average</div>	
-                                					</div>
-									<input type="text" class="form-control mid-input" name="" id="pool_value_dividend" aria-describedby="helpId" placeholder="">
-                             					</div>
-                           				 </div>
-						</div>
-					</div>	
-					<div class="row">
-						<div class="col-md-3 mid-top left-bar">
-							<div class="col-md-12 bar-top">
-								<img src="https://static.coincap.io/assets/icons/trx@2x.png" class="ui tiny image">
-								<span class="bar-name">TRON (TRX)</span>
-							</div>
-							<div class="col-md-12 bar-para">
-								<span class="para-name">Market Cap: </span><span class="left-info" id="cap"></span>
-							</div>
-							<div class="col-md-12 bar-para">
-								<span class="para-name">Supply: </span><span class="left-info" id="supply"></span>
-							</div>
-							<div class="col-md-12 bar-para">
-								<span class="para-name">Volume 24H: </span><span class="left-info" id="volumetoday"></span>
-							</div>
-						</div>
-						<div class="col-md-9">
-							<center><div class="tradingview-widget-container">
-  							<div id="tradingview_1f962"></div>
-  								<div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BINANCE-TRXUSD/" rel="noopener" target="_blank"><span class="blue-text">TRXUSD chart</span></a> by TradingView</div>
-  								<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-								  <script type="text/javascript">
- 									 new TradingView.widget(
-									  {
-									  "width": '100%',
-									  "height": 510,
-									  "symbol": "BINANCE:TRXUSD",
-									  "interval": "D",
-									  "timezone": "Etc/UTC",
-									  "theme": "Dark",
-									  "style": "1",
-									  "locale": "en",
-									  "toolbar_bg": "#f1f3f6",
-									  "enable_publishing": false,
-									  "hide_legend": true,
-									  "container_id": "tradingview_1f962"
-									  	}
-									   );
-								     </script>
-  							</center>
-						</div>
-					</div>	
-					</div>
-
-			</div>
-		</div>
-	</div>
+<section class=banner id=home>
+<div class=container>
+<div class=banner-text>
+<div class=slider-info>
+<div class=row>
+<div class=col-md-12>
+<div class="row uper" style=padding-bottom:12px>
+<div class="col-md-3 mid-top">
+<span class=flag>
+<h2><span id=rank></span></h2>
+<p>Rank</p>
+</span>
+<span>TRON</span>
+</div>
+<div class="col-md-6 mid-price">
+<span id=price></span>
+</div>
+<div class="col-md-3 mid-top">
+<span id=change class=positive></span>
+</div>
+</div>
+<div class=row style=padding:15px>
+<div class=col-md-4>
+<div class=form-group>
+<div class="input-group mb-3">
+<div class=input-group-prepend>
+<div class="input-group-text mid-mid" id=basic-addon> 24 Hours High</div>
+</div>
+<input type=text class="form-control mid-input" name id=pool_value_dividend aria-describedby=helpId placeholder>
+</div>
+</div>
+</div>
+<div class=col-md-4>
+<div class=form-group>
+<div class="input-group mb-3">
+<div class=input-group-prepend>
+<div class="input-group-text mid-mid" id=basic-addon> 24 Hours Low</div>
+</div>
+<input type=text class="form-control mid-input" name id=pool_value_dividend aria-describedby=helpId placeholder>
+</div>
+</div>
+</div>
+<div class=col-md-4>
+<div class=form-group>
+<div class="input-group mb-3">
+<div class=input-group-prepend>
+<div class="input-group-text mid-mid" id=basic-addon> 24 Hours Average</div>
+</div>
+<input type=text class="form-control mid-input" name id=pool_value_dividend aria-describedby=helpId placeholder>
+</div>
+</div>
+</div>
+</div>
+<div class=row>
+<div class="col-md-3 mid-top left-bar">
+<div class="col-md-12 bar-top">
+<img src=https://static.coincap.io/assets/icons/trx@2x.png class="ui tiny image">
+<span class=bar-name>TRON (TRX)</span>
+</div>
+<div class="col-md-12 bar-para">
+<span class=para-name>Market Cap: </span><span class=left-info id=cap></span>
+</div>
+<div class="col-md-12 bar-para">
+<span class=para-name>Supply: </span><span class=left-info id=supply></span>
+</div>
+<div class="col-md-12 bar-para">
+<span class=para-name>Volume 24H: </span><span class=left-info id=volumetoday></span>
+</div>
+</div>
+<div class=col-md-9>
+<center><div class=tradingview-widget-container>
+<div id=tradingview_1f962></div>
+<div class=tradingview-widget-copyright><a href=https://www.tradingview.com/symbols/BINANCE-TRXUSD/ rel=noopener target=_blank><span class=blue-text>TRXUSD chart</span></a> by TradingView</div>
+<script type=text/javascript src=https://s3.tradingview.com/tv.js></script>
+<script type=text/javascript>new TradingView.widget({width:"100%",height:510,symbol:"BINANCE:TRXUSD",interval:"D",timezone:"Etc/UTC",theme:"Dark",style:"1",locale:"en",toolbar_bg:"#f1f3f6",enable_publishing:false,hide_legend:true,container_id:"tradingview_1f962"});</script>
+</center>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
-<!-- //banner -->
-<!-- newsletter -->
-<section class="subscribe-main py-5" id="calculator">
-	<div class="container py-md-4">
-		<h3 class="heading text-capitalize text-center">TRON to USD Price calculator</h3>
-		<p  class="text-center mb-lg-5 pb-2">Tron calculator to calculate live tron price in usd. Enter usd value to get tron real time price.</p>
-		<div class="newsletter-info text-center p-md-4 py-md-0 py-4 px-md-0 px-4">
-		<div class="row">	
-			<div class="col-md-6">
-			<div class="input-group mb-3" style="justify-content: flex-end;">
-				<div class="input-group-prepend">
-                                <div class="input-group-text" id="basic-addon" style="background:#292929;border-color:#292929;color:#fff;line-height:2;"> TRX</div>
-                              	</div>
-                              	<input type="text" style="max-width: 55%;font-size:2rem;" class="form-control" value="1" id="trx_input" aria-describedby="helpId" placeholder="">
-                         </div>
-			</div><span style="font-size:36px;">=</span>	
-			<div class="col-md-5">
-			<div class="input-group mb-3">
-                              <input type="text" style="max-width: 55%;font-size:2rem;" class="form-control" name="" id="usd_price" aria-describedby="helpId" placeholder="">
-                              <div class="input-group-append">
-                                <div class="input-group-text" id="basic-addon" style="background:#292929;border-color:#292929;color:#fff;line-height:2;"> USD</div>
-                              </div>
-                         </div>
-			</div>
-		</div>	
-		</div>
-	</div>
-</section>		
-<!-- //newsletter-->		
-<!-- how it works -->
-<section class="about py-5" id="how" style="margin-bottom:130px;">
-	<div class="container py-md-5">
-		<div class="row about-grids">
-			<div class="col-lg-6" style="border:1px solid #111;border-radius:6px;">
-				<div class="wb-twitter">
-					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-					<a class="twitter-timeline" href="https://twitter.com/Tronfoundation" data-tweet-limit="1" >Tweets by Tronfoundation</a>
-				</div>
-			</div>
-			<div class="col-lg-6 grid1 mt-lg-0 mt-4">
-				<h4 class="my-3">Tron Coin and Tron Foundation</h4>
-				<p>Tron cryptocurrency is started by Justin Sun and run by Tron Foundation. Tron crypto games made it an uprising coin on coinmarketcap listings. Apart from tron games, development on tron network like tron TR10 and TRC20 tokens, tron wallet and tron dex is solid and keeping it in top cryptocurrency news.</p>
-				<h5 class="mt-md-5 mt-3 mb-2">Tron Price Today and Tron Analysis</h5>
-				<p>Live Tron price today is <span id="price2"></span> and tron rank is number <span id="rank2"></span> in coinmarketcap listings with market cap of <span id="cap2"></span>. With a supply of <span id="supply2"></span> tron coin volume for 24 hours is <span id="volumetoday2"></span>.</p>
-				<h5 class="mt-3 mb-2">TRX Price Prediction with Live TRON Price Chart</h5>
-				<p>Tron price prediction is available with real time tron chart of trx trading pair, tron to usd. On social media like tron reddit, telegram and tron twitter, many price predictions for trx coin are being made but live tron charts can predict tron price correctly.</p>
-			</div>
-		</div>
-	</div>
+<section class="subscribe-main py-5" id=calculator>
+<div class="container py-md-4">
+<h3 class="heading text-capitalize text-center">TRON to USD Price calculator</h3>
+<p class="text-center mb-lg-5 pb-2">Tron calculator to calculate live tron price in usd. Enter usd value to get tron real time price.</p>
+<div class="newsletter-info text-center p-md-4 py-md-0 py-4 px-md-0 px-4">
+<div class=row>
+<div class=col-md-6>
+<div class="input-group mb-3" style=justify-content:flex-end>
+<div class=input-group-prepend>
+<div class=input-group-text id=basic-addon style=background:#292929;border-color:#292929;color:#fff;line-height:2> TRX</div>
+</div>
+<input type=text style=max-width:55%;font-size:2rem class=form-control value=1 id=trx_input aria-describedby=helpId placeholder>
+</div>
+</div><span style=font-size:36px>=</span>
+<div class=col-md-5>
+<div class="input-group mb-3">
+<input type=text style=max-width:55%;font-size:2rem class=form-control name id=usd_price aria-describedby=helpId placeholder>
+<div class=input-group-append>
+<div class=input-group-text id=basic-addon style=background:#292929;border-color:#292929;color:#fff;line-height:2> USD</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
-<!-- how it works -->
-<!-- footer -->
+<section class="about py-5" id=how style=margin-bottom:130px>
+<div class="container py-md-5">
+<div class="row about-grids">
+<div class=col-lg-6 style="border:1px solid #111;border-radius:6px">
+<div class=wb-twitter>
+<script async src=https://platform.twitter.com/widgets.js charset=utf-8></script>
+<a class=twitter-timeline href=https://twitter.com/Tronfoundation data-tweet-limit=1>Tweets by Tronfoundation</a>
+</div>
+</div>
+<div class="col-lg-6 grid1 mt-lg-0 mt-4">
+<h4 class=my-3>Tron Coin and Tron Foundation</h4>
+<p>Tron cryptocurrency is started by Justin Sun and run by Tron Foundation. Tron crypto games made it an uprising coin on coinmarketcap listings. Apart from tron games, development on tron network like tron TR10 and TRC20 tokens, tron wallet and tron dex is solid and keeping it in top cryptocurrency news.</p>
+<h5 class="mt-md-5 mt-3 mb-2">Tron Price Today and Tron Analysis</h5>
+<p>Live Tron price today is <span id=price2></span> and tron rank is number <span id=rank2></span> in coinmarketcap listings with market cap of <span id=cap2></span>. With a supply of <span id=supply2></span> tron coin volume for 24 hours is <span id=volumetoday2></span>.</p>
+<h5 class="mt-3 mb-2">TRX Price Prediction with Live TRON Price Chart</h5>
+<p>Tron price prediction is available with real time tron chart of trx trading pair, tron to usd. On social media like tron reddit, telegram and tron twitter, many price predictions for trx coin are being made but live tron charts can predict tron price correctly.</p>
+</div>
+</div>
+</div>
+</section>
 <footer class="pb-5 position-relative">
-	<!-- text -->
-	<div class="text-grid position-absolute" id="text">
-		<div class="container py-3 text-center">
-			<div class="text">
-				<h5 class="w3pvt-title">TRON TOOLS and TRON NEWS</h5>
-				<p>If you are looking for information on tron tools like tron energy, tron bandwidth, tron tokens and latest tron news then get in touch with the tron community.</p>
-				<a class="btn mr-2" href="https://discord.gg/hd6SJEY" target="_blank"><span class="fa fa-info-circle"></span> Contact Us </a>
-			</div>
-		</div>
-	</div>
-	<!-- //text -->
-	<!-- to top -->
-	<div class="top-icon">
-		<a href="#home" class="move-top text-center"><span class="fa fa-angle-up  mb-3" aria-hidden="true"></span></a>
-	</div>
-	<!-- //to top -->
-	<div class="container">
-		<div class="row footer-grids">
-			<div class="col-lg-2 footer-left pr-0">
-				<h2 class="logo"><a href="index.html"><span><img src="images/trx-logo.png" style="width: 32px; height:32px;" /></span><span style="font-size:12px;"> TRON PRICE</span></a></h2>
-			</div>
-			<div class="col-lg-8 footer-middle p-0">
-				<p>© 2018 TRON Price. All Rights Reserved</p>
-			</div>
-		</div>
-	</div>
+<div class="text-grid position-absolute" id=text>
+<div class="container py-3 text-center">
+<div class=text>
+<h5 class=w3pvt-title>TRON TOOLS and TRON NEWS</h5>
+<p>If you are looking for information on tron tools like tron energy, tron bandwidth, tron tokens and latest tron news then get in touch with the tron community.</p>
+<a class="btn mr-2" href=https://discord.gg/hd6SJEY target=_blank><span class="fa fa-info-circle"></span> Contact Us </a>
+</div>
+</div>
+</div>
+<div class=top-icon>
+<a href=#home class="move-top text-center"><span class="fa fa-angle-up mb-3" aria-hidden=true></span></a>
+</div>
+<div class=container>
+<div class="row footer-grids">
+<div class="col-lg-2 footer-left pr-0">
+<h2 class=logo><a href=index.html><span><img src=images/trx-logo.png style=width:32px;height:32px /></span><span style=font-size:12px> TRON PRICE</span></a></h2>
+</div>
+<div class="col-lg-8 footer-middle p-0">
+<p>© 2018 TRON Price. All Rights Reserved</p>
+</div>
+</div>
+</div>
 </footer>
-<!-- //footer -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="/js/price.js"></script>	
+<script src=https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js></script>
+<script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js></script>
+<script src=/js/price.js></script>
 </body>
 </html>
