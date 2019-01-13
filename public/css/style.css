@@ -459,7 +459,7 @@ height:32px;
 }
 
 .logo-foot {
-  font-size:12px
+  font-size:12px;
 }
 #twt {
 border:1px solid #111;
@@ -473,7 +473,7 @@ padding:1.375rem 0.75rem;
 max-width:55%;
 font-size:2rem;
 }
-#calcl-mid {
+.calcl-mid {
 background:#292929;
 border-color:#292929;
 color:#fff;
